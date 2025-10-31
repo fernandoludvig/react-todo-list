@@ -42,24 +42,24 @@ function App() {
   return (
     <div className="app">
       <div className="container">
-        <h1>Minha Lista de Tarefas</h1>
+        <h1>My Todo List</h1>
         
         <form onSubmit={addTodo} className="todo-form">
           <input
             type="text"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
-            placeholder="Digite uma nova tarefa..."
+            placeholder="Type a new todo item..."
             className="todo-input"
           />
           <button type="submit" className="add-button">
-            Adicionar
+            Add
           </button>
         </form>
 
         <div className="todo-list">
           {todos.length === 0 ? (
-            <p className="empty-message">Nenhuma tarefa adicionada ainda.</p>
+            <p className="empty-message">No todo items added yet.</p>
           ) : (
             todos.map(todo => (
               <div key={todo.id} className={`todo-item ${todo.completed ? 'completed' : ''}`}>
@@ -76,7 +76,7 @@ function App() {
                   onClick={() => deleteTodo(todo.id)}
                   className="delete-button"
                 >
-                  Excluir
+                  Delete
                 </button>
               </div>
             ))
