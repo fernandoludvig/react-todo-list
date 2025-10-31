@@ -1,50 +1,50 @@
 # React Todo List
 
-Uma aplicação simples de lista de tarefas (Todo List) construída com React.
+A simple todo list application built with React.
 
-## Funcionalidades
+## Features
 
-- ✅ Adicionar novas tarefas
-- ✅ Marcar tarefas como concluídas/desmarcar
-- ✅ Excluir tarefas
-- ✅ Persistência de dados no localStorage
-- ✅ Interface limpa e responsiva
+- ✅ Add new todo items
+- ✅ Mark todos as complete/incomplete
+- ✅ Delete todo items
+- ✅ Data persistence with localStorage
+- ✅ Clean and responsive interface
 
-## Tecnologias
+## Technologies
 
 - React 18
 - Vite
 - JavaScript (JSX)
-- CSS puro
+- Pure CSS
 
-## Como executar
+## How to run
 
-1. Instale as dependências:
+1. Install dependencies:
 ```bash
 npm install
 ```
 
-2. Execute o servidor de desenvolvimento:
+2. Run the development server:
 ```bash
 npm run dev
 ```
 
-3. Abra o navegador em `http://localhost:5173`
+3. Open your browser at `http://localhost:5173`
 
-## Scripts disponíveis
+## Available Scripts
 
-- `npm run dev` - Inicia o servidor de desenvolvimento
-- `npm run build` - Cria a build de produção
-- `npm run preview` - Pré-visualiza a build de produção
+- `npm run dev` - Start the development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview the production build
 
-## Estrutura do Projeto
+## Project Structure
 
 ```
 react-todo-list/
 ├── src/
-│   ├── App.jsx       # Componente principal
-│   ├── main.jsx      # Ponto de entrada
-│   └── index.css     # Estilos globais
+│   ├── App.jsx       # Main component
+│   ├── main.jsx      # Entry point
+│   └── index.css     # Global styles
 ├── index.html
 ├── package.json
 └── vite.config.js
